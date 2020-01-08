@@ -18,7 +18,7 @@ public class pagecountobject extends basepage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public int prdcount1() {
+	public int prdcount2() {
 		String count=Prdcount.getText();
 		String [] v=count.split(" ");
 		int total=Integer.parseInt(v[2]);
