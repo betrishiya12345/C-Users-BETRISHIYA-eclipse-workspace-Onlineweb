@@ -11,7 +11,7 @@ public class productobject extends basepage{
 	@FindBy(xpath = "(//button[@type='button'])[2]")
 	private WebElement Sharedisplay;
 
-	public productobject() {
+	public productobject1() {
 		PageFactory.initElements(driver, this);
 		}
 	
